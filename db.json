@@ -1,0 +1,142 @@
+{
+  "applications": [
+    {
+      "id": "2eedntupbdigoq71han33ncetr",
+      "appClientId": "2eedntupbdigoq71han33ncetr",
+      "organisation": "Umbrella Corp",
+      "applicationName": "Umbrella Corp Warehousing",
+      "isActive": true,
+      "createdDateTime": "2020-09-22T13:12:05Z"
+    },
+    {
+      "id": "3s5dpl629mc80mb3g5lmudt098",
+      "appClientId": "3s5dpl629mc80mb3g5lmudt098",
+      "organisation": "Hooper's Store",
+      "applicationName": "Hooper's Store Online Shop",
+      "isActive": true,
+      "createdDateTime": "2020-11-17T00:40:14.113Z"
+    },
+    {
+      "id": "4a7902si9ta0a2bko33lskgroh",
+      "appClientId": "4a7902si9ta0a2bko33lskgroh",
+      "organisation": "Trans Pacific Warehousing",
+      "applicationName": "Trans Pacific Freight",
+      "isActive": true,
+      "createdDateTime": "2021-01-19T23:37:17.996Z"
+    },
+    {
+      "id": "6rqi7cpbdhonn2nhe9jijb2vlr",
+      "appClientId": "6rqi7cpbdhonn2nhe9jijb2vlr",
+      "organisation": "Rainholm Industries",
+      "applicationName": "Rainholm Industries",
+      "isActive": true,
+      "createdDateTime": "2020-08-15T16:35:17.996Z"
+    },
+    {
+      "id": "71pc6ruao6h31s20p6rjchakq8",
+      "appClientId": "71pc6ruao6h31s20p6rjchakq8",
+      "organisation": "Rand Enterprises",
+      "applicationName": "Rand Enterprises Despatch-Online",
+      "isActive": true,
+      "createdDateTime": "2020-11-11T03:52:18.471Z"
+    },
+    {
+      "id": "7g8sq3cj5vkp3a6tvk2510qlpb",
+      "appClientId": "7g8sq3cj5vkp3a6tvk2510qlpb",
+      "organisation": "Rand Enterprises",
+      "applicationName": "Rand Enterprises Warehouse",
+      "isActive": false,
+      "createdDateTime": "2020-11-11T03:52:18.471Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "2eedntupbdigoq71han33ncetr",
+      "appClientId": "2eedntupbdigoq71han33ncetr",
+      "claims": [
+        {
+          "claimId": "4a2525ab-ec45-4d05-a7c8-d19865fdf835",
+          "carrierName": "NZCouriers",
+          "customerId": "2061140"
+        },
+        {
+          "claimId": "e94448aa-0775-4cf6-addd-24d7373c979a",
+          "carrierName": "NZCouriers",
+          "customerId": "2061141"
+        },
+        {
+          "claimId": "f0ae7f6c-3e51-42bc-9e12-bafcecd2fa6d",
+          "carrierName": "PostHaste",
+          "customerId": "3061140"
+        }
+      ]
+    },
+    {
+      "id": "3s5dpl629mc80mb3g5lmudt098",
+      "appClientId": "3s5dpl629mc80mb3g5lmudt098",
+      "claims": [
+        {
+          "claimId": "f0ae7f6c-3e51-42bc-9e12-bafcecd2fa6d",
+          "carrierName": "PostHaste",
+          "customerId": "3061140"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "userId": "149c9695-fffd-4451-8686-84fc3dc4120c",
+      "email": "lisa.east@gmail.nz",
+      "firstName": "Lisa",
+      "lastName": "East",
+      "primaryBrand": "PostHaste",
+      "mobileNo": "+640278111111",
+      "isActive": true,
+      "claims": [
+        {
+          "claimId": "19389dc6-73ca-4df7-a8fa-c688c9e456aa",
+          "carrierName": "PostHaste",
+          "customerId": "707070",
+          "roles": ["admin", "standard"]
+        }
+      ],
+      "createdDateTime": "2020-08-15T07:17:43.743Z"
+    },
+    {
+      "userId": "1523401d-ceae-4261-a960-8026b73afd84",
+      "email": "anthony@osynlig.nz",
+      "firstName": "Anthony",
+      "lastName": "West",
+      "primaryBrand": "NowCouriers",
+      "mobileNo": "+64654521111",
+      "isActive": true,
+      "claims": [
+        {
+          "claimId": "73a659ca-29d5-4a59-9edf-6b68d2d42e69",
+          "carrierName": "NZCouriers",
+          "customerId": "789012",
+          "roles": ["admin", "standard"]
+        }
+      ],
+      "createdDateTime": "2020-08-10T21:51:59.19Z"
+    },
+    {
+      "userId": "17fe85ed-459b-4bcf-9725-b63ed7f82bb5",
+      "email": "John.Key@osynlig.nz",
+      "firstName": "John",
+      "lastName": "Key",
+      "primaryBrand": "NowCouriers",
+      "mobileNo": "+64689889",
+      "isActive": true,
+      "claims": [
+        {
+          "claimId": "80151aab-9c3c-48be-b18a-1458a127c8b7",
+          "carrierName": "NowCouriers",
+          "customerId": "789012",
+          "roles": ["admin", "standard"]
+        }
+      ],
+      "createdDateTime": "2020-08-13T00:55:15.722Z"
+    }
+  ]
+}
